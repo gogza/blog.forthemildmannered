@@ -1,0 +1,8 @@
+---
+layout: base-layout.njk
+---
+<article>
+  {% Title title, date %}
+  {{ content | safe }}
+  {{ content | wordcount }}
+</article>

@@ -1,0 +1,86 @@
+body {
+  background-color: #fffcfc;
+  margin: 0;
+  max-width: 600px;
+}
+
+main {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+header {
+}
+
+header h1 {
+  padding-left: 8px;
+  padding-right: 8px;
+  background-color: black;
+  color: white;
+}
+
+article {
+  font-family: libre_baskervilleregular;
+  line-height: 2;
+  margin-top: 2em;
+}
+
+h1, time {
+  font-family: ostrich_sansheavy;
+}
+
+.Time {
+  display: flex;
+  flex-flow: column;
+  font-size: 33%;
+  align-items: center;
+  line-height: 1;
+  margin-top: 0.4em;
+}
+
+.Time div:first-child {
+  font-size: 118%;
+}
+
+h1 {
+  font-size: 3em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+article h1 {
+  display: flex;
+  flex-flow: row;
+  align-items: start;
+  line-height: 1;
+}
+
+article footer {
+  flex-flow: row;
+  align-items: end;
+  border-bottom: 8px dotted black;
+}
+
+article a {
+  font-size: 2em;
+  float: right;
+  font-family: ostrich_sansheavy;
+}
+
+.Token {
+  display: flex;
+  flex-flow: column;
+  font-size: 15%;
+  align-items: center;
+  line-height: 1;
+  margin-right: 0.75em;
+  margin-top: 0.5em;
+}
+
+.Token div:first-child {
+  font-size: 220%;
+}
+
+.Token div:last-child {
+  font-size: 220%;
+}
