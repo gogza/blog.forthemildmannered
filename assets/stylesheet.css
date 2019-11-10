@@ -1,7 +1,6 @@
 body {
   background-color: #fffcfc;
   margin: 0;
-  max-width: 600px;
 }
 
 main {
@@ -23,6 +22,7 @@ article {
   font-family: libre_baskervilleregular;
   line-height: 2;
   margin-top: 2em;
+  font-size: 4vw;
 }
 
 h1, time {
@@ -43,7 +43,7 @@ h1, time {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 10vw;
   margin-top: 0em;
   margin-bottom: 0em;
 }
@@ -62,10 +62,17 @@ article footer {
 }
 
 article a {
-  font-size: 2em;
-  float: right;
-  font-family: ostrich_sansheavy;
+  color: black;
 }
+
+article > div {
+  margin-top:1em;
+}
+
+.Excerpt {
+  text-decoration: none;
+}
+
 
 .Token {
   display: flex;

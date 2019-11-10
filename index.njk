@@ -9,10 +9,9 @@ pagination:
 {% for post in posts %}
   <article>
     {% Title post.data.title %}
-    {% excerpt post %}
-    <footer><span>&nbsp;</span>
-    <a href="{{ post.url | url }}"
-       aria-label="Read more on {{ post.data.title }}">...</a>
-    </footer>
+    <div>
+      <a class="Excerpt" href="{{ post.url | url }}">{% excerpt post %} </a><a href="{{ post.url | url }}">+ {% remainingWords post %} more words</a>
+    </div>
+    <footer>&nbsp;</footer>
   </article>
 {% endfor %}

@@ -19,6 +19,7 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode('excerpt', article => extractExcerpt(article));
+  eleventyConfig.addShortcode('remainingWords', article => remainingWords(article));
 
   eleventyConfig.addShortcode('Title', Title);
   eleventyConfig.addShortcode('Time', Time);
@@ -53,4 +54,10 @@ function extractExcerpt(article) {
   });
 
   return excerpt;
+}
+
+function remainingWords(article) {
+  const excerpt = extractExcerpt(article);
+  console.log(100 - (excerpt.split(' ').length));
+  return "" + (100 - (excerpt.split(' ').length));
 }
