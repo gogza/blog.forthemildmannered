@@ -1,6 +1,8 @@
 body {
   background-color: #fffcfc;
   margin: 0;
+  display: flex;
+  flex-flow: column;
 }
 
 main {
@@ -8,12 +10,11 @@ main {
   margin-right: 8px;
 }
 
-header {
-}
-
 header h1 {
   padding-left: 8px;
   padding-right: 8px;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
   background-color: black;
   color: white;
 }
@@ -21,8 +22,17 @@ header h1 {
 article {
   font-family: libre_baskervilleregular;
   line-height: 2;
-  margin-top: 2em;
+  margin-top: 1em;
   font-size: 4vw;
+}
+
+@media (max-width: 450px) {
+  article {
+    font-size: 4vw;
+  }
+  h1 {
+    font-size: 10vw;
+  }
 }
 
 h1, time {
@@ -73,7 +83,6 @@ article > div {
   text-decoration: none;
 }
 
-
 .Token {
   display: flex;
   flex-flow: column;
@@ -90,4 +99,16 @@ article > div {
 
 .Token div:last-child {
   font-size: 220%;
+}
+
+@media (min-width: 600px) {
+  article {
+    font-size: 1.5em;
+  }
+  h1 {
+    font-size: 3.8em;
+  }
+  article h1 {
+    font-size: 2.5em;
+  }
 }
