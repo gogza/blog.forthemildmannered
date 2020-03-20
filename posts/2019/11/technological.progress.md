@@ -3,7 +3,8 @@ layout: post-layout.njk
 title: Technological Progress
 date: 2019-11-01
 topic: Technology
-tags: ['post']
+tags: [post]
+modified: 2020-03-20T23:46:01+00:00
 ---
 
 <!-- Excerpt Start -->Right now you’re living at the pinnacle of technological endeavour. Tomorrow will be even higher.<!-- Excerpt End --> Particle colliders would have been unheard of 30 years ago. As would telephones 200 years ago. Paper 10,000 years ago.
