@@ -3,7 +3,8 @@ layout: post-layout.njk
 title: Robots
 date: 2019-11-01
 topic: Robots
-tags: ['post']
+tags: [post]
+modified: 2020-03-20T23:45:01+00:00
 ---
 
 <!-- Excerpt Start -->Robots are no longer science fiction. They are here now and working your jobs.<!-- Excerpt End -->
