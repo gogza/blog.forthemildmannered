@@ -4,7 +4,7 @@ title: Are we ready yet?
 date: 2020-03-23
 topic: Humans
 tags: [post]
-modified: 2020-03-23T21:10:18+00:00
+modified: 2020-03-23T21:11:10+00:00
 ---
 
 <!-- Excerpt Start -->Humans have only been reading and writing for the last 5000 years or so.<!-- Excerpt End --> But we've been here for over 200,000. Our brains, evolved during those pre-literate years, have really only had a speck of time to deal with our post-literacy information overload.
