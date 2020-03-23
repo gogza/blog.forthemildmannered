@@ -4,7 +4,7 @@ title: Robots
 date: 2019-11-01
 topic: Robots
 tags: [post]
-modified: 2020-03-23T20:52:22+00:00
+modified: 2020-03-23T21:04:55+00:00
 ---
 
 <!-- Excerpt Start -->Robots are no longer science fiction. They are here now and working your jobs.<!-- Excerpt End -->
